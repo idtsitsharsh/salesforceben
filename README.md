@@ -104,7 +104,7 @@ This project is a functional clone of the **Salesforce Ben** website, developed 
 ---
 
 ## Author
-**[Your Name]**
+**Harsh Gupta**
 
 For any queries or suggestions, feel free to contact me.
 
