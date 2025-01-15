@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    font-family: inter,"Montserrat", serif;
+    /* overflow: hidden; */
+}
+
+.left-side{
+    width: 60%;
+    height: 100vh;
+    background-color: #4e78f4;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    img{
+        margin-left: 2vw;
+        width: 70%;
+        height: auto;
+    }
+}
+
+.main{
+    width: 30rem;
+    height: 90vh;
+    background-color: white;
+    box-shadow: 0px 0px 60px #0000001f;
+    position: absolute;
+    top: 5vh;
+    left: 50vw;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+
+.title{
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 130px 0 0 0;
+}
+
+.inputs{
+    height: 40px;
+    width: 20rem;
+    border: 2px solid grey;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center; 
+    margin-top: 25px;     
+    input{
+        border: none;
+        height: 35px;
+        font-size: 15px;
+        width: auto;
+        margin-top: 0;
+        line-height: 1;
+        outline: none;
+        flex: 1;
+    }
+    i{
+        color: #4e78f4;
+        display: inline-block;
+        font-size: 25px;
+        margin: auto 10px;
+    }
+}
+
+.redirect-msg{
+    color: #7b7b7b;
+    .redirect{
+        text-decoration: none;
+        color: black;
+    }
+} 
+
+.submit-button{
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #4e78f4;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    display: block;
+    margin: 50px auto;
+}
+
+.inputs .fa-eye{
+    color: #b9b9b9;
+}
